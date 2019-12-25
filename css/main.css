@@ -41,7 +41,7 @@ img {
 	height: auto;
 }
 .header {
-	font-size: 0.8vw;	
+	font-size: 1.0vw;	
 }
 .img-wrap {
 	position: relative;
@@ -60,15 +60,21 @@ img {
 	position: absolute;
 	top: 20%;
 	left: 75%;
-	width: 100%;	
+	width: 100%;		
+}
+.head1 a{
+	text-decoration: none;	
 }
 .head2 {
-	position: absolute;
+	position: absolute;	
 	top: 20%;
 	left: 86%;
 	width: 100%;
+	list-style-type: none;
 }
-
+.head2 a{
+	text-decoration: none;	
+}
 nav ul {
 	margin: 0;
 	padding: 0;
@@ -77,17 +83,14 @@ nav ul {
 }
 nav ul li {
 	display: inline-block;
-	font-size: 1.3vw;
-	font-style: italic;
-	//margin-right: 35px;
+	font-size: 1.5vw;
+	font-style: italic;	
 	font-family: "Lobster1.4";
 	src: url(fonts/Lobster/Lobster1.4.OTF);	
 }
-
 nav a {
 	display: block;
-	padding:  8px 11px 8px 11px;
-	//margin: 0 10px 0 5px;
+	padding:  8px 11px 8px 11px;	
 	text-decoration: none;
 	-webkit-transition: all .8s;
 	-o-transition: all .8s;
@@ -173,7 +176,6 @@ nav li:hover {
 	margin-right: 10%;
 	margin-bottom: 2%;
 }
-
 .content1 img {
 	margin: 0;
 }
@@ -183,17 +185,9 @@ nav li:hover {
 	font-size: 1.4vw;
 	font-style: italic;
 }
-.content2 img {
-	//position: relative;
-	
-}
-.content2  {
-	
-}
 .cont {
 	position: relative;
 }
-
 .dbase {
 	position: absolute;
 	top: 0;
@@ -209,7 +203,7 @@ nav li:hover {
 	width: 78%;
 	margin: 23% 0 0 35px;	
 	z-index: 8;
-	font-size: 0.8vw;
+	font-size: 1.0vw;
 	line-height: 1.5
 }
 #txta {
@@ -217,24 +211,24 @@ nav li:hover {
 	width: 85%;
 	margin-top: 62%;
 	left: 18%;
-	font-size: 0.8vw;
+	font-size: 1.0vw;
 	font-style: italic;
 }
 .col1 {
 	position: absolute;
-	top: 20%;
+	top: 21%;
 	left: 5%;
 	width: 30%;
 }
 .col2 {
 	position: absolute;
-	top: 15%;
+	top: 16%;
 	left: 37%;
 	width: 30%;
 }
 .getbase {
 	position: absolute;
-	top: 20px;
+	top: 17px;
 }
 .getitfresh {
 	position: absolute;
@@ -246,7 +240,7 @@ nav li:hover {
 	width: 78%;
 	margin: 28% 0 0 35px;	
 	z-index: 8;
-	font-size: 0.8vw;
+	font-size: 1.0vw;
 	line-height: 1.5
 }
 #txtb {
@@ -254,7 +248,7 @@ nav li:hover {
 	width: 85%;
 	margin-top: 67%;
 	left: 18%;
-	font-size: 0.8vw;
+	font-size: 1.0vw;
 	font-style: italic;
 }
 .col3 {
@@ -277,42 +271,36 @@ nav li:hover {
 	width: 78%;
 	margin: 28% 0 0 35px;	
 	z-index: 8;
-	font-size: 0.8vw;
-	line-height: 1.5
+	font-size: 1.0vw;
+	line-height: 1.5em;
 }
 #txtc {
 	position: absolute;
 	width: 85%;
 	margin-top: 68%;
 	left: 18%;
-	font-size: 0.8vw;
+	font-size: 1.0vw;
 	font-style: italic;
-}
-.head2 {
-
-}
-
-nav2 {
-	
 }
 nav2 ul {
 	margin: 0;
 	padding: 0;
-	list-style-type: none;
-	
+	list-style-type: none;	
 }
 nav2 li {
 	display: inline-block;
-	font-size: 0.8vw;
-	font-style: italic;
-	margin-right: 5px;	
+	font-size: 1.0vw;
+	font-style: italic;		
 }
 nav2 a {
-	display: inline-block;
+	display: block;
 	text-decoration: none;
+	padding:  1px 3px 1px 3px;
 }
-.footer {
-	
+nav2 li:hover {
+	background-color: #2787af;
+	border-radius: 3px;
+	transition: all .5s;	
 }
 .foot {
 	position: relative;
@@ -321,25 +309,23 @@ nav2 a {
 	position: absolute;
 }
 .menu2 {	
-	top: 20%;
+	top: 10%;
 	left: 62%;
 }
 .year {
-	font-size: 0.8vw;	
-	top: 20%;
+	font-size: 1.0vw;	
+	top: 35%;
 	left: 6%;
 }
 
 /* xs (<=543px) */
 @media (max-width: 575px) { 
-	body {
-  	font-size: 0.7em;
-  }
+	
   .head1 {
-  	font-size: 0.8em;
+  	font-size: 1.2em;
   }
   .head2 {
-  	font-size: 0.8em;
+  	font-size: 1.2em;
   }
   .check {
   	display: none;
@@ -347,45 +333,280 @@ nav2 a {
   .shop {
   	display: none;
   }
-  nav li {
-  	font-size: 0.7em;
+  nav li a{
+  	font-size: 1.4em;
+  }
+  .popup {
+  	font-size: 0.8em;
   }
   .content1 p {
   	font-size: 0.8em;
   }
   .logo {
-  	display: none;
+  	display: none;  	
   }
-  .col1 {
-  	left: 2%;
+  .col1 {	
+	top: 20%;
+	left: 1%;	
+  }
+  .col2 {	
+	top: 10%;
+	left: 34%;	
+  }
+  .col3 {	
+	top: 8%;
+	left: 66%;	
+  }  
+  .getitfresh {	
+	top: 10px;
+	}
+	.flavoric {	
+	top: 16px;	
   }
   #txt {
   	font-size: 0.7em;
-  	line-height: 0.9em;
+  	line-height: 2.0vw;
   	left: 2%;
   }
   #txta {  	
-  	
-  	font-size: 0.5em;
-  	
-  }
-  .getbase {
-  	top: 7%;
+  	font-size: 0.5em;  	
   }
   #txt2 {
-  	left: 3%;
-  	line-height: 1.5em;
+  	font-size: 0.6em;
+  	line-height: 2.0vw;
+  	left: 1%;
+  	top: 9px;
+  }
+  #txtb {  	
+  	font-size: 0.5em;
+  	left: 20%;
+  	top: 7px;  	
+  }  
+  #txt3 {
+	left: 1%;
+	top: 10px;
+	font-size: 0.6em;
+	line-height: 2.0vw;
+  }
+  #txtc {
+  	top: 8px;
+  }
+  .menu2 {	
+	top: -5px;	
+	}
+  nav2 li {	
+	font-size: 1.0vw;
+  }
+  .year {
+	font-size: 1.0vw;
   }
 }
  
 /* sm (>=576 и <=767) */
-@media (min-width: 576px) and (max-width: 767px) { ... }
+@media (min-width: 576px) and (max-width: 767px) { 
+	.check {	
+	top: 15%;
+	left: 70%;
+}
+.shop {	
+	top: 8%;
+	left: 81%;
+}
+nav li a{
+  	font-size: 1.0em;
+  	padding:  7px 8px 7px 8px;
+  }
+  .popup {
+  	font-size: 0.8em;
+  }
+  .content1 p {
+  	font-size: 0.7em;
+  }
+	.menu2 {	
+	  top: -5px;
+	  left: 50%;	
+	}
+  .col1 {	
+	top: 20%;
+	left: 3%;	
+  }
+  .col2 {	
+	top: 10%;
+	left: 36%;	
+  }
+  .col3 {	
+	top: 8%;
+	left: 67%;	
+  }
+  .getitfresh {	
+	top: 10px;
+	}
+	.flavoric {	
+	top: 16px;	
+  }
+  #txt {
+  	font-size: 0.5em;
+  	line-height: 1.6vw;
+  	left: 0%;
+  	top: -2px;
+  }
+  #txta {  	
+  	font-size: 0.5em;
+  	top: 1px;
+  	left: 20%;  	
+  }
+  #txt2 {
+  	font-size: 0.5em;
+  	line-height: 1.6vw;
+  	left: 0%;
+  	top: 9px;
+  }
+  #txtb {  	
+  	font-size: 0.5em;
+  	left: 20%;
+  	top: 12px;  	
+  }  
+  #txt3 {
+	left: 0%;
+	top: 10px;
+	font-size: 0.5em;
+	line-height: 1.6vw;
+  }
+  #txtc {
+  	top: 12px;
+  	left: 21%;
+  }  
+}
  
 /* md (>=768 и <=991) */
-@media (min-width: 768px) and (max-width: 991px) { ... }
+@media (min-width: 768px) and (max-width: 991px) { 
+	.head1 {	
+	left: 76%;		
+  }
+	.head2 {	
+	left: 87%;	
+  }
+nav li a{
+  	font-size: 1.1em;
+  	padding:  7px 8px 7px 8px;
+  }
+.content1 p {
+  	font-size: 0.8em;
+  }
+  .col1 {	
+	top: 22%;
+	left: 4%;	
+  }
+  .col2 {	
+	top: 15%;
+	left: 35%;	
+  }
+  .col3 {	
+	top: 13%;
+	left: 66%;	
+  }
+  .getitfresh {	
+	top: 9px;
+	}
+  #txt {
+  	font-size: 0.6em;
+  	line-height: 2.0vw;
+  	left: 2%;
+  	top: -2px;
+  }
+  #txta {  	
+  	font-size: 0.5em;
+  	top: 1px;
+  	left: 20%;  	
+  }
+  #txt2 {
+  	font-size: 0.6em;
+  	line-height: 2.0vw;
+  	left: 1%;
+  	top: 9px;
+  }
+  #txtb {  	
+  	font-size: 0.5em;
+  	left: 20%;
+  	top: 12px;  	
+  }  
+  #txt3 {
+	left: 1%;
+	top: 10px;
+	font-size: 0.6em;
+	line-height: 2.0vw;
+  }
+  #txtc {
+  	top: 8px;
+  	left: 21%;
+  } 
+  .menu2 {	
+	  top: -1px;
+	  left: 52%;	
+	} 
+}
  
 /* lg (>=992 и <=1199) */
-@media (min-width: 992px) and (max-width: 1199px) { ... }
+@media (min-width: 992px) and (max-width: 1199px) { 
+	
+  .head1 {	
+	left: 75%;
+	font-size: 1.2em;		
+  }
+	.head2 {	
+	left: 87%;
+	font-size: 1.2em;	
+  }
+  nav li a{
+  	font-size: 1.2em;
+  	padding:  8px 9px 8px 9px;
+  }
+  .content1 p {
+  	font-size: 1.1em;
+  }
+  .col1 {	
+	top: 22%;
+	}
+  #txt {
+  	font-size: 0.7em;
+  	line-height: 2.0vw;
+  	left: 2%;
+  	top: -2px;
+  }
+  #txta {  	
+  	font-size: 0.6em;
+  	top: 1px;
+  	left: 20%;  	
+  }
+  #txt2 {
+  	font-size: 0.7em;
+  	line-height: 2.0vw;
+  	left: 1%;
+  	top: 9px;
+  }
+  #txtb {  	
+  	font-size: 0.6em;
+  	left: 20%;
+  	top: 12px;  	
+  }  
+  #txt3 {
+	left: 1%;
+	top: 10px;
+	font-size: 0.7em;
+	line-height: 2.0vw;
+  }
+  #txtc {
+  	font-size: 0.6em;
+  	top: 8px;
+  	left: 21%;
+  }
+  nav2 li {	
+	font-size: 1.1vw;
+  }
+  .year {
+	font-size: 1.1vw;
+  } 
+}
  
 /* xl (>=1200) */
 @media (min-width: 1200px) { ... }
