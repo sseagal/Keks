@@ -193,8 +193,12 @@ nav li:hover {
 	//position: relative;
 	display: flex;
 	background-color: brown;
-	height: 600px;
+	//min-height: 280px;
+	height: 400px;
+	//height: 100%;
+	//margin: 10% auto;
 	//flex-grow: 0;
+	//text-align: center;
 	align-items: center;
 	flex-wrap: nowrap;
 	//align-content: center;
@@ -239,17 +243,27 @@ nav li:hover {
 	//top: 21%;
 	//left: 5%;
 	//width: 200px;
-	align-item: center;
+	//align-item: center;
+	//background-color: brown;
+	//margin: 5% auto;
+	//padding: 5% ;
 	flex:0 0 30%;
-	//display: inline-block;
+	//flex-direction: column;
+	display: inline-block;
+	//vertical-align: middle;
+    height: 50%;
+    //max-height: 200px;
 }
 .col2 {
 	position: relative;
 	//top: 16%;
 	//left: 37%;
 	//width: 30%;
+	//margin: 2% auto;
 	flex:0 0 30%;
 	display: inline-block;
+	height: 50%;
+	//max-height: 200px;
 }
 .getbase {
 	position: absolute;
@@ -281,8 +295,11 @@ nav li:hover {
 	//top: 15%;
 	//left: 68%;
 	//width: 30%;
+	//margin: 2% auto;
 	flex:0 0 30%;
 	display: inline-block;
+	height: 50%;
+	//max-height: 200px;
 }
 .flabase {
 	position: absolute;
@@ -372,6 +389,9 @@ nav2 li:hover {
   .logo {
   	display: none;  	
   }
+  .cont {
+  	height: 200px;
+  }
   .col1 {	
 	//top: 20%;
 	//left: 1%;	
@@ -385,15 +405,15 @@ nav2 li:hover {
 	//left: 66%;	
   }  
   .getitfresh {	
-	top: 10px;
+	//top: 10px;
 	}
 	.flavoric {	
-	top: 16px;	
+	//top: 16px;	
   }
   #txt {
   	font-size: 0.7em;
   	line-height: 2.0vw;
-  	left: 2%;
+  	//left: 2%;
   }
   #txta {  	
   	font-size: 0.5em;  	
@@ -401,22 +421,22 @@ nav2 li:hover {
   #txt2 {
   	font-size: 0.6em;
   	line-height: 2.0vw;
-  	left: 1%;
-  	top: 9px;
+  	//left: 1%;
+  	//top: 9px;
   }
   #txtb {  	
   	font-size: 0.5em;
-  	left: 20%;
-  	top: 7px;  	
+  	//left: 20%;
+  	//top: 7px;  	
   }  
   #txt3 {
-	left: 1%;
-	top: 10px;
+	//left: 1%;
+	//top: 10px;
 	font-size: 0.6em;
 	line-height: 2.0vw;
   }
   #txtc {
-  	top: 8px;
+  	//top: 8px;
 
   }
   .menu2 {	
@@ -454,6 +474,9 @@ nav li a{
 	  top: -5px;
 	  left: 50%;	
 	}
+	.cont {
+  	height: 300px;
+  }
   .col1 {	
 	//top: 20%;
 	//left: 3%;	
@@ -467,42 +490,42 @@ nav li a{
 	//left: 67%;	
   }
   .getitfresh {	
-	top: 10px;
+	//top: 10px;
 	}
-	.flavoric {	
-	top: 16px;	
+  .flavoric {	
+	//top: 16px;	
   }
   #txt {
   	font-size: 0.5em;
   	line-height: 1.6vw;
-  	left: 0%;
-  	top: -2px;
+  	//left: 0%;
+  	//top: -2px;
   }
   #txta {  	
   	font-size: 0.5em;
-  	top: 1px;
-  	left: 20%;  	
+  	//top: 1px;
+  	//left: 20%;  	
   }
   #txt2 {
   	font-size: 0.5em;
   	line-height: 1.6vw;
-  	left: 0%;
-  	top: 9px;
+  	//left: 0%;
+  	//top: 9px;
   }
   #txtb {  	
   	font-size: 0.5em;
-  	left: 20%;
-  	top: 12px;  	
+  	//left: 20%;
+  	//top: 12px;  	
   }  
   #txt3 {
-	left: 0%;
-	top: 10px;
+	//left: 0%;
+	//top: 10px;
 	font-size: 0.5em;
 	line-height: 1.6vw;
   }
   #txtc {
-  	top: 12px;
-  	left: 21%;
+  	//top: 12px;
+  	//left: 21%;
   }  
 }
  
@@ -534,43 +557,43 @@ nav li a{
 	//left: 66%;	
   }
   .getitfresh {	
-	top: 9px;
+	//top: 9px;
 	}
   #txt {
   	font-size: 0.6em;
   	line-height: 2.0vw;
-  	left: 2%;
-  	top: -2px;
+  	//left: 2%;
+  	//top: -2px;
   }
   #txta {  	
   	font-size: 0.5em;
-  	top: 1px;
-  	left: 20%;  	
+  	//top: 1px;
+  	//left: 20%;  	
   }
   #txt2 {
   	font-size: 0.6em;
   	line-height: 2.0vw;
-  	left: 1%;
-  	top: 9px;
+  	//left: 1%;
+  	//top: 9px;
   }
   #txtb {  	
   	font-size: 0.5em;
-  	left: 20%;
-  	top: 12px;  	
+  	//left: 20%;
+  	//top: 12px;  	
   }  
   #txt3 {
-	left: 1%;
-	top: 10px;
+	//left: 1%;
+	//top: 10px;
 	font-size: 0.6em;
 	line-height: 2.0vw;
   }
   #txtc {
-  	top: 8px;
-  	left: 21%;
+  	//top: 8px;
+  	//left: 21%;
   } 
   .menu2 {	
-	  top: -1px;
-	  left: 52%;	
+	 top: -1px;
+	 left: 52%;	
 	} 
 }
  
